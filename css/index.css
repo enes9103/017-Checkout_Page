@@ -1,0 +1,450 @@
+main {
+  position: relative;
+  width: 70%;
+  left: 70%;
+  transform: translateX(-50%);
+  margin: 35px 0;
+  display: grid;
+  grid-template-columns: 465px 320px;
+}
+#checkout-title {
+  font-family: Mon, Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 15px 0;
+}
+main form {
+  margin-right: 150px;
+  position: relative;
+  width: 80%;
+}
+.data-form {
+  font-family: Mon;
+  position: relative;
+  display: block;
+}
+.data-form h1 {
+  font-size: 18px;
+  color: #333;
+  margin: 15px 0;
+}
+.data-form .campo {
+  margin: 10px 0;
+}
+.data-form .campo label {
+  font-size: 12px;
+  color: #4f4f4f;
+  margin: 10px 0;
+  position: relative;
+  display: block;
+}
+.data-form .campo .input-field {
+  position: relative;
+}
+.data-form .campo .input-field input {
+  border: 1px solid #828282;
+  padding: 8px 5px 8px 35px;
+  color: #828282;
+  font-size: 14px;
+  border-radius: 5px;
+  width: 100%;
+}
+.data-form .campo .input-field i {
+  position: absolute;
+  color: #828282;
+  font-size: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 3%;
+}
+#shipping-address {
+  margin-top: 50px;
+}
+#country-field {
+  display: inline-block;
+  margin-right: 2%;
+}
+#postal-code-field {
+  display: inline-block;
+  width: auto;
+}
+#country-field div select {
+  border: none;
+  padding: 8px 5px 8px 35px;
+  border-radius: 5px;
+  border: 1px solid #828282;
+}
+#user-reminder {
+  display: inline-block;
+  margin-right: 10px;
+}
+#user-reminder ~ label {
+  display: inline-block;
+  margin-top: -10px !important;
+}
+#btn-submit {
+  width: 20%;
+  padding: 14px 0;
+  border-radius: 10px;
+  background-color: #f2994a;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  border: none;
+  position: absolute;
+  right: 0;
+  margin-right: -50px;
+}
+#products-preview {
+  position: relative;
+}
+#product-painel {
+  position: absolute;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #eeeeee;
+  padding: 10px 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+#product-painel .product {
+  position: relative;
+  width: 100%;
+  display: flex;
+  margin: 10px 0;
+}
+.product img {
+  width: 30%;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.product-info {
+  font-family: Mon, Arial, Helvetica, sans-serif;
+  width: 100%;
+}
+.product-info h2 {
+  font-size: 16px;
+  color: #4e5150;
+  margin: 5px 0;
+}
+.product-info p {
+  font-size: 12px;
+  color: #4e5150;
+  margin: 5px 0;
+}
+.product-info p strong {
+  color: #f2994a;
+  font-size: 16px;
+  font-weight: 600;
+}
+.quantity-controller {
+  border-radius: 5px;
+  border: 1px solid rgb(136, 136, 136);
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin-top: 25px;
+}
+.quantity-controller button,
+p {
+  position: relative;
+  display: block;
+}
+.quantity-controller p {
+  line-height: 24px;
+}
+.quantity-controller button {
+  margin: 5px 0;
+  border: 0;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+}
+.quantity-controller button i {
+  font-size: 12px;
+}
+.buy-detail {
+  margin: 5px 0;
+  border-top: 1px solid #bdbdbd;
+  display: flex;
+  position: relative;
+  width: 90%;
+  font-family: Mon, Arial, Helvetica, sans-serif;
+}
+.buy-detail p {
+  display: block;
+  width: 50%;
+}
+.buy-detail p:nth-child(2) {
+  text-align: right;
+}
+#shipping {
+  margin-top: 50px;
+}
+.line-through {
+  text-decoration: line-through;
+}
+
+
+
+
+
+@media only screen and (max-width: 1450px) {
+  main {
+    position: relative;
+    width: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 35px 0;
+    display: grid;
+    grid-template-columns: 465px 320px;
+  }
+  #checkout-title {
+    font-family: Mon, Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 15px 0;
+  }
+  main form {
+    margin-right: 150px;
+    position: relative;
+    width: 80%;
+  }
+  .data-form {
+    font-family: Mon;
+    position: relative;
+    display: block;
+  }
+  .data-form h1 {
+    font-size: 18px;
+    color: #333;
+    margin: 15px 0;
+  }
+  .data-form .campo {
+    margin: 10px 0;
+  }
+  .data-form .campo label {
+    font-size: 12px;
+    color: #4f4f4f;
+    margin: 10px 0;
+    position: relative;
+    display: block;
+  }
+  .data-form .campo .input-field {
+    position: relative;
+  }
+  .data-form .campo .input-field input {
+    border: 1px solid #828282;
+    padding: 8px 5px 8px 35px;
+    color: #828282;
+    font-size: 14px;
+    border-radius: 5px;
+    width: 100%;
+  }
+  .data-form .campo .input-field i {
+    position: absolute;
+    color: #828282;
+    font-size: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 3%;
+  }
+  #shipping-address {
+    margin-top: 50px;
+  }
+  #country-field {
+    display: inline-block;
+    margin-right: 2%;
+  }
+  #postal-code-field {
+    display: inline-block;
+    width: auto;
+  }
+  #country-field div select {
+    border: none;
+    padding: 8px 5px 8px 35px;
+    border-radius: 5px;
+    border: 1px solid #828282;
+  }
+  #user-reminder {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  #user-reminder ~ label {
+    display: inline-block;
+    margin-top: -10px !important;
+  }
+  #btn-submit {
+    width: 20%;
+    padding: 14px 0;
+    border-radius: 10px;
+    background-color: #f2994a;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    border: none;
+    position: absolute;
+    right: 0;
+    margin-right: -50px;
+  }
+  #products-preview {
+    position: relative;
+  }
+  #product-painel {
+    position: absolute;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #eeeeee;
+    padding: 10px 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #product-painel .product {
+    position: relative;
+    width: 100%;
+    display: flex;
+    margin: 10px 0;
+  }
+  .product img {
+    width: 30%;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+  .product-info {
+    font-family: Mon, Arial, Helvetica, sans-serif;
+    width: 100%;
+  }
+  .product-info h2 {
+    font-size: 16px;
+    color: #4e5150;
+    margin: 5px 0;
+  }
+  .product-info p {
+    font-size: 12px;
+    color: #4e5150;
+    margin: 5px 0;
+  }
+  .product-info p strong {
+    color: #f2994a;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .quantity-controller {
+    border-radius: 5px;
+    border: 1px solid rgb(136, 136, 136);
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin-top: 25px;
+  }
+  .quantity-controller button,
+  p {
+    position: relative;
+    display: block;
+  }
+  .quantity-controller p {
+    line-height: 24px;
+  }
+  .quantity-controller button {
+    margin: 5px 0;
+    border: 0;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+  }
+  .quantity-controller button i {
+    font-size: 12px;
+  }
+  .buy-detail {
+    margin: 5px 0;
+    border-top: 1px solid #bdbdbd;
+    display: flex;
+    position: relative;
+    width: 90%;
+    font-family: Mon, Arial, Helvetica, sans-serif;
+  }
+  .buy-detail p {
+    display: block;
+    width: 50%;
+  }
+  .buy-detail p:nth-child(2) {
+    text-align: right;
+  }
+  #shipping {
+    margin-top: 50px;
+  }
+  .line-through {
+    text-decoration: line-through;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  main {
+    grid-template-columns: 100%;
+    width: 90%;
+    grid-template-rows: 400px 1fr;
+    grid-template-areas: "top" "bottom";
+  }
+  main form {
+    width: 85% !important;
+    left: 0;
+    transform: unset;
+    margin-right: 0 !important;
+  }
+  form {
+    grid-area: bottom;
+  }
+  #products-preview {
+    width: 100%;
+    grid-area: top;
+  }
+  #product-painel {
+    padding: 0;
+  }
+  #btn-submit {
+    width: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #postal-code-field {
+    width: 100%;
+  }
+  .product {
+    padding: 0 15px;
+  }
+  .buy-detail {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+.remove-product {
+    border: 0;
+    padding: 4px 8px;
+    margin: 5px;
+    background-color: #c66;
+    color: #fff;
+    font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium";
+    font-size: 12px;
+    border-radius: 3px;
+  }
+  .remove-product:hover {
+    background-color: #a44;
+  }
+  .product-price strong::before {
+    content: "$";
+  }
+  .line-through::before{
+  content: "$";
+}
+.buy-detail p:nth-child(2):before{
+  content: "$";
+}
+.product-line-price {
+  float: left;
+  clear: left;
+  width: auto;
+  margin-top: 10px;
+}
+.product-line-price:before {
+  content: "Product Total: $";
+}
