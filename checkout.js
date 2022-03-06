@@ -2,10 +2,10 @@ const taxRate = 0.18;
 const shippingPrice = 15.00;
 
 window.addEventListener("load", ()=>{
-    // localStorage.setItem("taxRate", taxRate);                   //global değişken ile declare edilen verinin localstorage'de tutulması işlemi
-    // localStorage.setItem("shippingPrice", shippingPrice);       //localstorage'de veriler string olarak tutulur. ve sayfa yenilense browser kapatılsa dahi veriler localstorage'de kalıcı olur.
-    // sessionStorage.setItem("taxRate", taxRate);                 //sessionStorage'a gönderlen veriler sayfa yenilenmesi veya browser kapatılması durumunda silinir.
-    // sessionStorage.setItem("shippingPrice", shippingPrice);     //global değişken ile declare edilen verinin sessionstorage'de tutulması işlemi
+    localStorage.setItem("taxRate", taxRate);                   //global değişken ile declare edilen verinin localstorage'de tutulması işlemi
+    localStorage.setItem("shippingPrice", shippingPrice);       //localstorage'de veriler string olarak tutulur. ve sayfa yenilense browser kapatılsa dahi veriler localstorage'de kalıcı olur.
+    sessionStorage.setItem("taxRate", taxRate);                 //sessionStorage'a gönderlen veriler sayfa yenilenmesi veya browser kapatılması durumunda silinir.
+    sessionStorage.setItem("shippingPrice", shippingPrice);     //global değişken ile declare edilen verinin sessionstorage'de tutulması işlemi
 })
 
 //capturing
