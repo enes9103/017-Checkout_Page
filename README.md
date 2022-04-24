@@ -4,13 +4,7 @@
 
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
+ install npm@latest -g
   ```
 ### Installation
 
@@ -33,6 +27,8 @@ _Below is an example of how you can instruct your audience on installing and set
 
 ## Project Outcome
 ![Project gif](Animation.gif)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -87,12 +83,34 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+<p">
+<a href="https://my-portfolio-page-resume.herokuapp.com/">
+<img border="0" alt="Enes UNLU" src="https://img.icons8.com/external-itim2101-lineal-color-itim2101/40/000000/external-resume-business-recruitment-itim2101-lineal-color-itim2101.png"/>
+</a>
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+<a href="https://www.linkedin.com/in/enesunlu/">
+<img border="0" alt="Enes UNLU" src="https://img.icons8.com/doodle/40/000000/linkedin--v2.png"/>
+</a>
+
+<a href="https://twitter.com/Enes9103">
+<img border="0" alt="Enes UNLU" src="https://img.icons8.com/nolan/40/twitter.png"/>
+</a>
+
+<a href="https://www.instagram.com/enesunlu0303/">
+<img border="0" alt="Enes UNLU" src="https://img.icons8.com/doodle/38/000000/instagram--v1.png"/>
+</a>
+
+<a href="https://t.me/Enes9103">
+<img border="0" alt="Enes UNLU" src="https://img.icons8.com/doodle/40/000000/telegram-app.png"/>
+</a>
+
+<a href="mailto:enes9103@gmail.com">
+<img border="0" alt="Enes UNLU" src="https://img.icons8.com/doodle/38/000000/gmail-new.png"/>
+</a>
+Project Link: [https://github.com/enes9103](https://github.com/enes9103)
+</p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
 
 
 <!-- ACKNOWLEDGMENTS -->
