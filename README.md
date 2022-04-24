@@ -83,7 +83,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-<p">
 <a href="https://my-portfolio-page-resume.herokuapp.com/">
 <img border="0" alt="Enes UNLU" src="https://img.icons8.com/external-itim2101-lineal-color-itim2101/40/000000/external-resume-business-recruitment-itim2101-lineal-color-itim2101.png"/>
 </a>
@@ -107,6 +106,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <a href="mailto:enes9103@gmail.com">
 <img border="0" alt="Enes UNLU" src="https://img.icons8.com/doodle/38/000000/gmail-new.png"/>
 </a>
+
 Project Link: [https://github.com/enes9103](https://github.com/enes9103)
 </p>
 
